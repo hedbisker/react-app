@@ -18,7 +18,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -28,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Examples.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/Examples.jsx">
+      <file leaf-file-name="About.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/components/About.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="38" />
+            <state relative-caret-position="58">
+              <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -153,7 +153,6 @@
         <option value="$PROJECT_DIR$/public/components/GreeterForm.jsx" />
         <option value="$PROJECT_DIR$/public/components/Greeter.js" />
         <option value="$PROJECT_DIR$/public/app.jsx" />
-        <option value="$PROJECT_DIR$/app/components/About.jsx" />
         <option value="$PROJECT_DIR$/public/bundle.js" />
         <option value="$PROJECT_DIR$/app/components/Examples.jsx" />
         <option value="$PROJECT_DIR$/app/app.jsx" />
@@ -170,6 +169,7 @@
         <option value="$PROJECT_DIR$/.gitIgnore" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/app/components/About.jsx" />
       </list>
     </option>
   </component>
@@ -418,12 +418,12 @@
       <workItem from="1493359039961" duration="15270000" />
       <workItem from="1493467008680" duration="61000" />
       <workItem from="1493467737399" duration="581000" />
-      <workItem from="1493470635719" duration="34205000" />
+      <workItem from="1493470635719" duration="35375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79945000" />
+    <option name="totallyTimeSpent" value="81115000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -679,14 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/About.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/__dirname/public/bundle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -702,9 +694,9 @@
         <state relative-caret-position="255">
           <caret line="1353" column="0" lean-forward="true" selection-start-line="1353" selection-start-column="0" selection-end-line="1353" selection-end-column="0" />
           <folding>
-            <marker date="1493627006962" expanded="true" signature="1383:1483" ph="{...}" />
-            <marker date="1493627006962" expanded="true" signature="939638:939648" ph="{...}" />
-            <marker date="1493627006962" expanded="true" signature="939639:939648" ph="{...}" />
+            <marker date="1493716937647" expanded="true" signature="1383:1483" ph="{...}" />
+            <marker date="1493716937647" expanded="true" signature="939575:939585" ph="{...}" />
+            <marker date="1493716937647" expanded="true" signature="939576:939585" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -806,6 +798,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/About.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
           <folding />
         </state>
       </provider>

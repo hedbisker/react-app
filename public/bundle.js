@@ -28626,17 +28626,13 @@
 
 	var React = __webpack_require__(1);
 
-	var About = React.createClass({
-	    displayName: 'About',
-
-	    render: function render() {
-	        return React.createElement(
-	            'h2',
-	            null,
-	            ' About Component'
-	        );
-	    }
-	});
+	var About = function About(props) {
+	    return React.createElement(
+	        'h2',
+	        null,
+	        'This website was created by Hed Bisker'
+	    );
+	};
 
 	module.exports = About;
 
