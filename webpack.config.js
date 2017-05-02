@@ -1,6 +1,7 @@
 /**
  * Created by hedbi on 04/27/2017.
  */
+//var webpack = require('webpack');
 module.exports = {
     entry:'./app/app.jsx',
     output:{
@@ -31,6 +32,6 @@ module.exports = {
             exclude: /(node_modules|brwer_components)/
             }
         ]
-    }
+    },
     devtool:'cheep-module-eval-source-map'
 };
