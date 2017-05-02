@@ -1,9 +1,23 @@
 /**
  * Created by hedbi on 04/27/2017.
  */
-//var webpack = require('webpack');
+
+var webpack = require('webpack');
 module.exports = {
-    entry:'./app/app.jsx',
+    entry:[
+        'script!jquery/dist/jquery.min.js',
+        'script!foundation-sites/dist/foundation.min.js',
+        './app/app.jsx'
+    ],
+    external:{
+        jquery:'jQuery',
+    },
+    plugin:[
+        new webpack.ProvidePlugin({
+            '$':'jquery',
+            'jQuery':'jquery'
+        })
+    ],
     output:{
         path: __dirname,
         filename: './public/bundle.js'
